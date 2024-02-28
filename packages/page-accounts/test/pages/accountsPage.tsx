@@ -100,7 +100,7 @@ export class AccountsPage extends Page {
 
     expect(selectedCategory).not.toBeUndefined();
 
-    return selectedCategory as HTMLElement;
+    return selectedCategory as HTML.Element;
   }
 
   private async getSortByComponent (): Promise<HTMLElement> {
