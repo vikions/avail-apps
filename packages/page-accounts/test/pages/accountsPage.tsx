@@ -71,7 +71,7 @@ export class AccountsPage extends Page {
     const accounts = overrides.map((accountProperties, index) =>
       [this.defaultAddresses[index], accountProperties] as [string, AccountOverrides]);
 
-    this.render(accounts);
+    this.render(acc);
   }
 
   renderAccountsForAddresses (...addresses: string[]): void {
